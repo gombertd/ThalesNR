@@ -1,0 +1,12 @@
+{
+    "name": "Gemalto",
+    "description": "Gemalto Project on NR",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_Gemalto.json",
+            "credentialsFile": "flows_Gemalto_cred.json"
+        }
+    }
+}
