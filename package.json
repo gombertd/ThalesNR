@@ -2,7 +2,12 @@
     "name": "Gemalto",
     "description": "Gemalto Project on NR",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-image-output": "0.5.2",
+        "node-red-contrib-mongodb": "0.3.4",
+        "node-red-dashboard": "2.19.4",
+        "node-red-node-base64": "0.2.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_Gemalto.json",
